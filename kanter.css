@@ -3,6 +3,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
 }
 
 #felulet {
@@ -15,11 +16,9 @@ body {
 }
 
 button {
-    border: 2px solid black;
     border-radius: 10px;
     height: 298px;
     width: 98px;
-    box-shadow: 5px 5px 20px white;
     font-size: 32px;
 }
 
@@ -30,8 +29,6 @@ button {
     height: 298px;
     width: 298px;
     background-color: #5efad8;
-    border: 2px solid black;
-    box-shadow: 5px 5px 20px white;
     border-radius: 50%;
     font-size: 64px;
     margin: 0px 5px;
